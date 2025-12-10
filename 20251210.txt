@@ -1,0 +1,106 @@
+【スクランブル】
+
+R' U' F R2 B' L2 F U2 B' L2 R2 U2 B2 R2 U2 D L' F2 U F' U2 B' F R' U' F
+
+【解答】
+
+U   B   L   U   R2  L2  F   U2  B   R2
+F2  D   Fw2 U2  L2  Fw  D2  Fw' R2  Fw2
+U2  R2  B2  D2  L2  D2  R2
+
+【説明】
+
+U B L  // EO (R/L) (3/3)
+U // DR-4e4c (1/4)
+R2 L2 F U2 B R2 F2 D // DR (F/B, 4b2,2e) (8/12)
+F2 * U2 L2 F + D2 F' % // HTR (6/18)
+R2 F2 * U2 R2 B2 // FR (5/23)
+D2 L2 D2 R2 // LS (4/27)
+*=S2, +=S, %=S' // finish (0/27
+
+【メモ】
+
+F* B2 U B
+F* B' L' B
+L2 F' L
+U B L
+([U2 B2] L)
+([F2 D2] R)
+B F U
+(F2 B' D)
+
+L2 F' L // EO (R/L) (3)
+  B U // DR-2e4c (5)
+    F U2 F L2 F2 U' B2 U // DR (F/B, 2c3) (12)
+  B U' // DR-2e4c (5)
+    L2 U2 F' L2 ...
+  U' B' // DR-4e4c
+  D' B // DR-2e4c (5)
+    D F2 U2 F2 U B U2 B // DR (U/D, 4a3 or 4a4) (13)
+
+L2 F' L' // EO (R/L) (3)
+
+U B L  // EO (R/L) (3)
+  U // DR-4e4c (4)
+    R2 L2 F U2 B R2 F2 D // DR (F/B, 4b2,2e) (12)
+                 L2 B2 U' // DR (F/B, 4b2,2e) (12)
+
+U B L  // EO (R/L) (3)
+U // DR-4e4c (4)
+R2 L2 F U2 B R2 F2 D // DR (F/B, 4b2,2e) (12)
+
+F2 U2 L2 F D2 F' // HTR (18)
+  R2 F2 U2 R2 B2 // FR (23)
+    D2 L2 D2 R2 // LS (27)
+  R2 F2 D2 L2 F2 // FR (23)
+    D2 R2 U2 R2 // LS (27)
+
+(L2 R2 F' U2 F') // HTR (17)
+  (D2 R2 F2 U2 R2 U2 R2 U2 F2) // FR (26)
+  L2 F2 U2 L2 D2 R2 D2 B2 // FR (25)
+    R2 D2 R2 // LS (VR) (28)
+
+U B L  // EO (R/L) (3)
+U // DR-4e4c (4)
+R2 L2 F U2 B R2 F2 D // DR (F/B, 4b2,2e) (12)
+F2 U2 L2 F D2 F' // HTR (18)
+R2 F2 U2 R2 B2 // FR (23)
+D2 L2 D2 R2 // LS (27)
+
+      F2      F    F'   F2      B2
+D2 L2    U2 L2  D2   R2   U2 R2
+
+u r || u r | u | r || u r ||
+
+      F2      F    F'   F2      B2
+D2 L2    U2 L2  D2   R2   U2 R2
+              S    S'
+      u       r    g    r       g = g
+      S2                S2
+
+U B L  // EO (R/L) (3)
+U // DR-4e4c (4)
+R2 L2 F U2 B R2 F2 D // DR (F/B, 4b2,2e) (12)
+F2 * U2 L2 F + D2 F' % // HTR (18)
+R2 F2 * U2 R2 B2 // FR (23)
+D2 L2 D2 R2 // LS (27)
+
+*=S2, +=S, %=S'
+
+U   B   L   U   R2  L2  F   U2  B   R2
+F2  D   Fw2 U2  L2  Fw  D2  Fw' R2  Fw2
+U2  R2  B2  D2  L2  D2  R2
+
+【反省】
+
+U B L  // EO (R/L) (3)
+U // DR-4e4c (4)
+R2 L2 F U2 B R2 F2 D // DR (F/B, 4b2,2e) (12)
+(L2 R2 F' U2 F) // HTR (17)
+
+の後、
+
+D2 F2 L2 D2 L2 F2 R2 U2 F2 U2
+
+がDR後optimalだった。
+が、これはFR経由だと出てこない……。
