@@ -1,0 +1,88 @@
+【スクランブル】
+
+R' U' F U D2 F' R F' R2 D F R2 U2 D2 L' B2 U2 D2 R B2 R2 U2 L' B R' U' F
+
+【解答】
+
+L2  B2  R2  B2  Uw2 B2  L2  Uw2 R2  F2
+Dw  L2  Uw  B2  R2  F   U   R2  B2  D
+F'  U2  L'  U'  B'  D'
+
+【説明】
+
+(D B U L) // EO (R/L) (4)
+(U2 F) // DR-4e4c (U/D) (6)
+(D' B2 R2 U' F') // DR (U/D, 4b2,2e) (11)
+(R2 B2 U' % L2 D' +) // HTR (16)
+(F2 R2 U2 * L2 B2 U2 *) // FR (22)
+(B2 R2 B2 L2) // LS (26)
+*=E2, +=E', %=E
+
+【メモ】
+
+F' D' B' R
+(D B U L)
+
+F' D' B' R // EO (R/L) (4)
+  U' F // DR-4e4c (U/D) (6)
+    L2 F2 ...
+F' D' B' R' // EO (R/L) (4)
+  U' F' // DR-4e4c (U/D) (6)
+    U2 F2 D' L2 D2 B2 D' B2 U' B // DR (U/D, 2c4) (16)
+(D B U L) // EO (R/L) (4)
+  (D') // DR-4e4c (F/B) (6)
+    (F' R2 D2 L2 F2 R2 B' U2 ...)
+  (B D) // DR-4e4c (F/B) (6)
+    (B' U2 F U2 F' D2 F2 U2 B D2 ...)
+  (U2 F) // DR-4e4c (U/D) (6)
+    (D' B2 R2 U' F) // DR (U/D, 4b2,2e) (11)
+
+(D B U L) // EO (R/L) (4)
+(U2 F) // DR-4e4c (U/D) (6)
+(D' B2 R2 U' F') // DR (U/D, 4b2,2e) (11)
+
+(R2 B2 U' L2 D') // HTR (16)
+  (F2 R2 U2 L2 B2 U2) // FR (22)
+    (B2 R2 B2 L2) // LS (26)
+  U2 R2 B2 U2 // FR (20)
+    L2 F2 B2 L2 B2 L2 // LS (26)
+  U2 L2 F2 D2 // FR (20)
+    R2 B2 F2 R2 F2 R2 // LS (26)
+(R2 B2 U' L2 D) // HTR (16)
+  U2 B2 L2 U2 L2 B2 U2 // FR (23)
+    B2 L2 F2 L2 // LS (VR) (27)
+
+B2 L2 B2 L2 U L2 D // HTR (18)
+  B2 R2 U2 R2 B2 D2 // FR (24)
+    R2 F2 // LS (26)
+F2 U' L2 D R2 U R2 F2 R2 U // HTR (21)
+
+(D B U L) // EO (R/L) (4)
+(U2 F) // DR-4e4c (U/D) (6)
+(D' B2 R2 U' F') // DR (U/D, 4b2,2e) (11)
+(R2 B2 U' L2 D') // HTR (16)
+(F2 R2 U2 L2 B2 U2) // FR (22)
+(B2 R2 B2 L2) // LS (26)
+
+   U2       U2        D   U
+B2    B2 L2    R2 F2    L2
+
+f || f r || r f | r |
+
+   U2       U2        D   U
+B2    B2 L2    R2 F2    L2
+                      E   E'
+   r        f         r   g = g
+   E2       E2
+
+(D B U L) // EO (R/L) (4)
+(U2 F) // DR-4e4c (U/D) (6)
+(D' B2 R2 U' F') // DR (U/D, 4b2,2e) (11)
+(R2 B2 U' % L2 D' +) // HTR (16)
+(F2 R2 U2 * L2 B2 U2 *) // FR (22)
+(B2 R2 B2 L2) // LS (26)
+*=E2, +=E', %=E
+
+L2 B2 R2 B2 Uw2 B2 L2 Uw2 R2 F2 Dw L2 Uw B2 R2 F U R2 B2 D F' U2 L' U' B' D'
+
+【反省】
