@@ -1,0 +1,104 @@
+【スクランブル】
+
+R' U' F L' U' R2 F D2 U2 B' U2 B F' U2 F R F2 D' L' D L2 B2 D' R' U' F
+
+【解答】
+
+L   F   D2  B   L   U'  F2  R   F2  D'
+L2  D'  B2  D2  B2  Rw' D2  Lw' F2  Rw2
+U2  Rw2 R2  B2  L2  D2  F2  D2  B2
+
+【説明】
+
+L F D2 B // EO (F/B) (4)
+L U' // DR-2e4c (R/L) (6)
+F2 R F2 D' L2 D' // DR (R/L, 4b2,2e) (12)
+B2 D2 B2 R' * D2 L' + // HTR (18)
+F2 R2 % U2 % B2 L2 // FR (23)
+D2 F2 D2 B2 // LS (27)
+*=M, +=M' %=M2
+
+【メモ】
+
+L* F D2 B
+L* B R2 F
+(F) ... (4)
+U' R2 F D
+
+L F D2 B // EO (F/B) (4)
+  L // DR-2e4c (U/D) (5)
+  D2 L // DR-2e3c (U/D) (6)
+    D2 L2 B2 U' L D' L // DR (U/D, 2c4) (13)
+  L U' // DR-2e4c (R/L) (6)
+    F2 R F2 D' L2 D // DR (R/L, 4b2,2e) (12)
+L F D2 B' // EO (F/B) (4)
+  D L // DR-4e4c (U/D) (6)
+  U // DR-4e4c (R/L) (5)
+    R2 B2 R2 B2 L' F2 L2 U // DR (R/L) 2c4 (13)
+L' F D2 B' // EO (F/B) (4)
+  // DR-4e4c (U/D) (4)
+    L2 D R2 D F2 U2 L // DR (U/D, 4a3 or 4a4) (11)
+
+L F D2 B // EO (F/B) (4)
+L U' // DR-2e4c (R/L) (6)
+F2 R F2 D' L2 D' // DR (R/L, 4b2,2e) (12)
+
+B2 D2 B2 R' D2 L' // HTR (18)
+  F2 R2 U2 B2 L2 // FR (23)
+    D2 F2 D2 B2 // LS (27)
+(B2 D2 F2 R F2 L) // HTR (18)
+  (U2 R2 F2 U2 R2) // FR (23)
+    (F2 B2 D2 F2) // LS (27)
+  (U2 R2 B2 D2 L2) // FR (23)
+    (F2 B2 U2 B2) // LS (27)
+(D2 F2 U2 R F2 L) // HTR (18)
+  (U2 R2 U2 R2) // FR (22)
+    (U2 B2 D2 F2 D2 F2 D2) // LS (29)
+  (D2 R2 D2 R2) // FR (22)
+    (B2 U2 F2 U2 F2) // LS (27)
+
+D2 (B2 D2 F2 R F2 L) // HTR (18)
+  (U2 R2 F2 U2 R2) // FR (23)
+    (B2 F2 D2 F2 D2) // LS (28)
+D2 (D2 F2 U2 R F2 L) // HTR (18)
+  (U2 R2 U2 R2) // FR (22)
+    (U2 B2 D2 F2 D2 F2) // LS (28)
+  (D2 R2 D2 R2) // FR (22)
+    (B2 D2 B2 U2 B2 U2) // LS (28)
+
+L F D2 B // EO (F/B) (4)
+L U' // DR-2e4c (R/L) (6)
+F2 R F2 D' L2 D' // DR (R/L, 4b2,2e) (12)
+B2 D2 B2 R' D2 L' // HTR (18)
+F2 R2 U2 B2 L2 // FR (23)
+D2 F2 D2 B2 // LS (27)
+
+      R'   L'  R2       L2
+B2 D2   D2  F2    U2 B2
+
+f u | u | f || u f ||
+
+      R'   L'  R2       L2
+B2 D2   D2  F2    U2 B2
+      M    M'
+      f    g   f    u   g
+               M2   M2
+
+L F D2 B // EO (F/B) (4)
+L U' // DR-2e4c (R/L) (6)
+F2 R F2 D' L2 D' // DR (R/L, 4b2,2e) (12)
+B2 D2 B2 R' * D2 L' + // HTR (18)
+F2 R2 % U2 % B2 L2 // FR (23)
+D2 F2 D2 B2 // LS (27)
+*=M, +=M' %=M2
+
+【反省】
+
+U2 B2 U と D2 F2 U の3手EOを見逃していた。
+エッジがバッドかどうかの判断ミス？
+
+1QTでのスイッチの (R) D2 F2 D2 L がHTRとして最短かつDR後optimalだった。
+1手で4a1,4eになるなら、スイッチしてみるべき？
+
+スライスインサートで+2手。
+DR後が短いときは、他のLSを見る時間の余裕を残しておくべきか。
