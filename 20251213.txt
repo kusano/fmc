@@ -1,0 +1,83 @@
+2:40
+
+【スクランブル】
+
+R' U' F R' L2 B2 U2 R2 F U2 F2 R2 F D2 R U B2 F2 L2 F2 D' F' R' U' F
+
+【解答】
+
+【説明】
+
+F' L B' R // EO (R/L) (4/4)
+(U2 B') // DR-4e4c (U/D) (2/6)
+(F2 D B2 U' F) // DR (U/D, 4b3) (5/11)
+U * (F2 B2 R2 U * F2 U') // HTR (7-1/17)
+(B2 D2) // FR (2/19)
+(F2 B2 R2) // LS (2/22)
+*=E // finish (2/24)
+
+【メモ】
+
+F* L B' R
+
+F L B' R // EO (R/L) (4)
+  (D2 F) // DR-4e4c (U/D) (6)
+F L B' R' // EO (R/L) (4)
+  D // DR-4e4c (F/B) (5)
+    U2 F D2 B' U2 F D2 F2 B' U // DR (F/B, 2c3,6e) (15)
+F' L B' R // EO (R/L) (4)
+  (U2 B') // DR-4e4c (U/D) (6)
+    (F2 D B2 U' F) // DR (U/D, 4b3) (11)
+  (D2 F') // DR-4e4c (U/D) (6)
+    (B2 D F2 U' F) // DR-4e4c (U/D, 4b3) (11)
+F' L B' R' // EO (R/L) (4)
+
+F' L B' R // EO (R/L) (4)
+(U2 B') // DR-4e4c (U/D) (6)
+(F2 D B2 U' F) // DR (U/D, 4b3) (11)
+
+U B2 U2 L2 B2 R2 B2 U' B2 U // HTR (21)
+U (F2 B2 R2 U F2 U') // HTR (17)
+  (B2 D2) // FR (19)
+    (F2 B2 R2) // LS (22)
+  L2 U2 // FR (19)
+    L2 B2 
+
+U (F2 B2 R2 U F2 U') // HTR (17)
+(B2 D2) // FR (19)
+(F2 B2 R2) // LS (22)
+
+   U          D2    U    U'
+F2   R2 B2 F2    B2   F2
+
+f | r || f | f |
+
+   U          D2    U    U'
+F2   R2 B2 F2    B2   F2
+   E'                    E
+   r          g     f     g = f
+   E2                    E2
+-----------------------------
+   E                     E'
+
+// +2
+
+   U          D2    U    U'
+F2   R2 B2 F2    B2   F2
+              E    E'
+  r           f     r    g = r
+
+// +2
+
+F'  L   B'  R   U2  Uw' R2  B2  F2  D2
+B2  U   F2  U2  Uw  R2  B2  F   U   B2
+D'  F2  B   U2
+
+【反省】
+
+このスクランブルから22手LSは良いのでは。
+
+EOの F' L' B' R を見落としていた。
+EOの途中で4EOを解消するとき回転方向はどちらでも良い。
+
+U R2 U でHTRが完了するときに、U' R2 U2 R2 U' でHTRを増やせる。
