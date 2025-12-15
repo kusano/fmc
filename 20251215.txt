@@ -1,0 +1,76 @@
+1:16
+
+【スクランブル】
+
+R' U' F D2 F U' F2 U R2 F2 U L2 B2 U' B2 D2 R U' B2 F U' L' D F' R' U' F
+
+【解答】
+
+B2  R   U2  B2  D2  Rw2 U2  F2  Rw2 B2
+R'  F2  U2  F2  U2  D   L   U2  L   U2
+L'  U2  L   U'  R   B'  L'  R'
+
+【説明】
+
+(R L B) // EO (F/B) (3/3)
+(R' U) // DR-4e4c (R/L) (2/5)
+(L' U2 L U2 L' U2 L' D') // DR (R/L, 4a2,2e) (8/13)
+B2 R (U2 F2 U2 F2 R) // HTR (7/20)
+(B2 R2 * F2 U2 R2 *) // FR (5/25)
+(D2 B2 U2) // LS (VR) (3/28)
+*=M2 // finish (0/28
+
+【メモ】
+
+U' B2 R' B
+(R L B)
+L* F'B R
+L* U* D*
+(D* B' U)
+
+L U D // EO (U/D) (3)
+  // DR-4e4c (F/B) (3)
+    B L2 U2 B R2 L2 F2 B' R // DR (F/B, 4a3) (12)
+L' U D // EO (U/D) (3)
+  L B // DR-2e4c (R/L) (5)
+    U2 R F2 R L2 B L2 B // DR (R/L, 2c5) (13)
+    U2 L D2 L R2 B L2 B // DR (R/L, 2c5) (13)
+  // DR-4e4c (F/B) (3)
+L' U' D // EO (U/D) (3)
+  // DR-4e4c (F/B) (3)
+    F' R2 U2 F L2 F2 B' L // DR (F/B, 2b5) (11)
+    B' D2 L2 B D2 B L // DR (F/B, 2b5) (10)
+L' U' D' // EO (U/D) (3)
+(R L B) // EO (F/B) (3)
+  (R' U) // DR-4e4c (R/L) (5)
+    (L' U2 L U2 L' U2 L' D') // DR (R/L, 4a2,2e) (13)
+
+(R L B) // EO (F/B) (3)
+(R' U) // DR-4e4c (R/L) (5)
+(L' U2 L U2 L' U2 L' D') // DR (R/L, 4a2,2e) (13)
+
+(F2 D2 R F2 R2 D2 F2 D2 F2 R) // HTR (23)
+B2 R F2 R2 U2 R2 U2 F2 U2 R // HTR (23)
+B2 R' D2 R2 F2 U2 B2 U2 L // HTR (22)
+  F2 R2 D2 F2 D2 R2 // FR (28)
+B2 R (U2 F2 U2 F2 R) // HTR (20)
+  (B2 R2 F2 U2 R2) // FR (25)
+    (D2 B2 U2) // LS (VR) (28)
+B2 R (U2 B2 U2 B2 R) // HTR (20)
+  (F2 R2 B2 U2 R2) // FR (25)
+    (B2 F2 U2 B2 D2) // LS (VR) (30)
+
+B2 R (U2 F2 U2 F2 R) // HTR (20)
+(B2 R2 F2 U2 R2) // FR (25)
+(D2 B2 U2) // LS (VR) (28)
+
+      R          R2      R2  R'
+B2 U2   U2 B2 D2   U2 F2   B2
+      f          f        u  g
+                 M2      M2
+
+B2  R   U2  B2  D2  Rw2 U2  F2  Rw2 B2
+R'  F2  U2  F2  U2  D   L   U2  L   U2
+L'  U2  L   U'  R   B'  L'  R'
+
+【反省】
