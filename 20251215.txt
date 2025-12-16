@@ -18,7 +18,7 @@ L'  U2  L   U'  R   B'  L'  R'
 B2 R (U2 F2 U2 F2 R) // HTR (7/20)
 (B2 R2 * F2 U2 R2 *) // FR (5/25)
 (D2 B2 U2) // LS (VR) (3/28)
-*=M2 // finish (0/28
+*=M2 // finish (0/28)
 
 【メモ】
 

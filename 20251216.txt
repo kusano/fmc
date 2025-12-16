@@ -1,0 +1,92 @@
+【スクランブル】
+
+R' U' F D' B' U2 F' L2 B L2 D2 B' D2 B D2 U2 R' D2 F2 D' R B' D' B R' U' F
+
+【解答】
+
+F2   D   R   D   B   U'  F2  D'  B2  D2
+F2   U   F   R2  B2  R2  U'  B2  U'  Uw2
+B2   R2  Uw2 R2  F2  R2
+
+【説明】
+
+F2 D R // EO (R/L) (3/3)
+D B // DR-4e4c (U/D) (2/5)
+U' F2 D' B2 D2 F2 U F // DR (U/D, 4b2,2e) (8/13)
+R2 B2 R2 U' B2 U * // HTR (6/19)
+B2 R2 U2 * // FR (3/22)
+R2 F2 R2 // LS (VR) (3/25)
+*=M2 // finish (1/26)
+
+【メモ】
+
+B* F2 R' F
+B* F U F
+(D* F B)
+F2 D R
+(F B2 R)
+(D* U L U)
+
+F2 D R // EO (R/L) (3)
+  B' D // DR-2e4c (F/B) (5)
+    F' L2 F' D2 F D' B2 D // DR (F/B, 4b3) (13)
+  D B // DR-4e4c (U/D) (5)
+    U' F2 D' B2 D2 F2 U F // DR (U/D, 4b2,2e) (13)
+  B' D' // DR-2e4c (F/B) (5)
+    F' L2 F' D2 F D' B2 D // DR (F/B, 4a1,0e) (13)
+F2 D R' // EO (R/L) (3)
+  F D' // DR-4e4c (F/B) (5)
+    R2 F2 R2 F2 ...
+  D F // DR-4e4c (U/D) (5)
+    U' B2 U2 R2 U R2 U' B // DR (U/D, 2c4) (12)
+  D' B // DR-4e4c (U/D) (5)
+    U' F2 L2 U2 F2 U' B2 U2 R2 U2 F
+  D' B' // DR-4e4c (U/D) (5)
+    R2 F2 U2 B2 D' R2 D2 B // DR (U/D, 4a3 or 4a4) (13)
+(D F B) // EO (F/B) (3)
+  (R') // DR-2e4c (U/D (4)
+    (U' R2 L2 D2 U R' D R) // DR (U/D, 4a3 or 4a4) (12)
+    D R2 U R' D' R // DR (U/D, 4b5) (10)
+
+F2 D R // EO (R/L) (3)
+D B // DR-4e4c (U/D) (5)
+U' F2 D' B2 D2 F2 U F // DR (U/D, 4b2,2e) (13)
+
+R2 B2 R2 U' B2 U // HTR (19)
+  B2 R2 U2 // FR (22)
+    R2 F2 R2 // LS (VR) (25)
+  F2 L2 D2 // FR (22)
+    L2 B2 R2 // LS (VR) (25)
+(U2 L2 F2 B2 U' R2 U') // HTR (20)
+  (R2 F2 L2 D2) // FR (24)
+    // LS
+
+(U2 L2 F2 B2 U' R2 U') // HTR (20)
+(R2 F2 L2 D2) // FR (24)
+
+   D2         U    U         U2
+F2   L2 F2 R2   R2  B2 F2 L2
+
+f || r f r | r | r ||
+
+   D2         U    U         U2
+F2   L2 F2 R2   R2  B2 F2 L2
+              E'   E'
+   r          r    r         g = t
+
+R2 B2 R2 U' B2 U // HTR (19)
+B2 R2 U2 // FR (22)
+R2 F2 R2 // LS (VR) (25)
+
+         U'   U       U2
+F2 B2 R2   B2   B2 R2
+         f    r       g = f
+              E2      E2
+
+F2   D   R   D   B   U'  F2  D'  B2  D2
+F2   U   F   R2  B2  R2  U'  B2  U'  Uw2
+B2   R2  Uw2 R2  F2  R2
+
+【反省】
+
+4b2,2e をコーナースワップで R2 B2 L2 U で4a1にする場合、 U2 後にスライスの U2 F2 B2 という手もある。
