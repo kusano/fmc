@@ -1,0 +1,94 @@
+1:30
+
+【スクランブル】
+
+R' U' F R' U F R' F2 R U2 B2 R' B2 D2 L' F2 B L B F' U2 R U2 R' U' F
+
+【解答】
+
+B2  L2  B2  L2  B2  D'  Dw' F2  R2  F2
+R2  F2  Uw  R2  F2  R2  Uw2 B2  U2  B'
+D   U2  R2  D'  F2  R2  U   F'  U'  R
+B   R'
+
+【説明】
+
+(R B' R') // EO (R/L) (3/3)
+(U F) // DR-4e4c (U/D) (2/5)
+(U' R2 F2 D R2 U2 D' B) // DR (U/D, 4a1,4e) (8/13)
+(U2 B2 U2 ** R2 F2 R2 U' *) // HTR (7/20)
+(F2 R2 F2 R2 F2 D2 *) // FR (6/26)
+(B2 L2 B2 L2 B2) // LS (5/31)
+* = E // finish (1/32)
+
+【メモ】
+
+F L' F
+F R D R
+(R B' R)
+(F2 R U)
+
+F L' F // EO (F/B) (3)
+  L' D // DR-4e4c (R/L) (5)
+    R B2 R2 D2 R2 D2 R U // DR (R/L, 2c4) (13)
+F L' F' // EO (F/B) (3)
+(R B' R) // EO (R/L) (3)
+(R B' R') // EO (R/L) (3)
+  (U F) // DR-4e4c (U/D) (5)
+    (U L2 U R2 U2 B2 U' R2 U' F) // DR (U/D) (15)
+    (D' F2 R2 U B2 U2 D' B) // DR (U/D, 4a1,4e) (13)
+    (U' L2 F2 D R2 U2 D' B) // DR (U/D, 4a1,4e) (13)
+
+(R B' R') // EO (R/L) (3)
+(U F) // DR-4e4c (U/D) (5)
+(U' R2 F2 D R2 U2 D' B) // DR (U/D, 4a1,4e) (13)
+
+(U2 B2 U2 R2 F2 R2 U') // HTR (20)
+  (F2 R2 F2 R2 F2 D2) // FR (26)
+    (B2 L2 B2 L2 B2) // LS (31)
+(U2 B2 U2 L2 F2 L2 U') // HTR (20)
+  (F2 L2 B2 L2 B2 D2) // FR (26)
+    (B2 L2 B2 L2 B2) // LS (31)
+U2 B2 L2 B2 L2 B2 U // HTR (20)
+  R2 F2 U2 L2 F2 U2 // FR (26)
+    F2 B2 R2 F2 B2 // LS (31)
+(F2 U2 B2 R2 B2 R2 U) // HTR (20)
+  (B2 R2 B2 L2 B2 U2) // FR (26)
+    ...
+(F2 U2 B2 L2 B2 L2 U) // HTR (20)
+  (F2 R2 F2 R2 F2 D2)
+  (B2 L2 F2 R2 F2 
+
+(U2 B2 U2 R2 F2 R2 U') // HTR (20)
+(F2 R2 F2 R2 F2 D2) // FR (26)
+(B2 L2 B2 L2 B2) // LS (31)
+
+   D2               U         U2   U2
+L2   F2 R2 F2 R2 F2   R2 F2 R2   B2
+
+r || r | r f r || f ||
+
+   D2               U         U2   U2
+L2   F2 R2 F2 R2 F2   R2 F2 R2   B2
+   E                E'
+   f                r          r   g = g
+   E2                          E2
+
+B2  L2  B2  L2  B2  D'  Dw' F2  R2  F2
+R2  F2  Uw  R2  F2  R2  Uw2 B2  U2  B'
+D   U2  R2  D'  F2  R2  U   F'  U'  R
+B   R'
+
+【反省】
+
+NISSする3手EOがある。
+
+- F (L2 B)
+- (B) D F
+
+ノーマルもインバースもHTRが1手削れる。
+
+(U2 B2 U2 R2 F2 R2 U') → (B2 U2 B2 R2 F2 R2 U)
+U2 B2 L2 B2 L2 B2 U → R2 F2 R2 U2 B2 U
+
+U2 の前に、バッドコーナーが集まっている面 or その対面を回す。
