@@ -1,0 +1,86 @@
+【スクランブル】
+
+R' U' F L' U2 R D2 R' U2 R2 U2 F2 R' D2 F2 U F2 L' B F' L' D2 B U2 R' U' F
+
+【解答】
+
+DNF
+
+R2 D2 F' // EO (F/B) (3/3)
+// DR-4e4c (U/D) (0/3)
+U2 R2 L2 D' L2 U' L // DR (U/D, 4a2) (7/10)
+(U2 F2 U) F2 R2 L2 U // HTR (7/17)
+(U2 R2 D2) // FR (3-1/19)
+(R2 B2 L2 F2 R2) // LS (5/24)
+(L2 U D' B2 U' D) // finish (6-1/29)
+
+【説明】
+
+R2  D2  F'  U2  R2  L2  D'  L2  U'  L
+F2  R2  L2  U2  D'  B2  D   U'  L2  R2
+F2  L2  B2  R2  D2  R2  U   F2  U2
+
+【メモ】
+
+[R2 D2] F
+[U2 L2] B
+([R2 D] B)
+(U* R2 U2 R)
+(U [R' B2] D)
+
+R2 D2 F' // EO (F/B) (3)
+  // DR-4e4c (U/D) (3)
+    U2 R2 L2 D' L2 U' L // DR (U/D, 4a2) (11)
+  U2 L // DR-2e4c (U/D) (5)
+  U' L // DR-2e4c (U/D) (5)
+  R2 U // DR-4e4c (R/L) (5)
+    R' U2 R D2 ...
+  L' U // DR-4e4c (R/L) (5)
+R2 D2 F // EO (F/B) (3)
+  // DR-4e4c (U/D) (3)
+    U' F2 R2 U2 R2 L2 D' L2 U' L // DR (U/D, 0c3) (13)
+    (L2 U F2 B2 R2 D2 L) // DR (U/D, 4b5,2e) (10)
+    (L2 U' F2 B2 R2 D2 L) // DR (U/D, 4b5,2e) (10)
+  D2 R // DR-4e4c (U/D) (5)
+    D L2 B2 U' R2 D L2 U L // DR (U/D, 2c3,4e) (14)
+  U // DR-4e4c (R/L) (4)
+  R U // DR-2e4c (R/L) (5)
+(R2 D B) // EO (F/B) (3)
+  (U) // DR-4e4c (R/L) (4)
+    (R U2 L D2 R U2 L U) // DR (R/L, 2c4) (12)
+
+R2 D2 F' // EO (F/B) (3)
+// DR-4e4c (U/D) (3)
+U2 R2 L2 D' L2 U' L // DR (U/D, 4a2) (11) -> (10)
+
+B2 U (L2 R2 U2 B2 U)// HTR (18)
+  (R2 B2 U2 L2 B2 L2 B2 L2 U2) // FR (27)
+    (B2 L2 B2) // LS (30)
+B2 U (L2 R2 F2 U2 B2 U) // HTR (19)
+  (R2 B2 U2 L2 F2 U2) // FR (25)
+    (L2 R2 F2 R2 F2) // LS(30)
+B2 U (L2 R2 B2 U2 B2 U') // HTR (19)
+  (R2 B2 L2 B2 U2) // FR (24)
+    (B2 L2 B2 L2 B2) // LS (VR) (30)
+(U2 F2 U) F2 R2 L2 U // HTR (18)
+  R2 F2 U2 L2 B2 R2 F2 R2 U2 // FR (27)
+    L2 B2 L2 // LS (30)
+  (U2 R2 D2) // FR (20)
+    (L2 F2 R2 B2 R2 B2 R2) // LS (27)
+    (R2 B2 L2 F2 R2 B2) // LS (26)
+(U2 F2 U) F2 U2 R2 L2 U' // HTR (19)
+  F2 U2 B2 L2 F2 L2 F2 U2 // FR (27)
+    // LS (33)
+
+(U2 F2 U) F2 R2 L2 U // HTR (18)
+(U2 R2 D2) // FR (20)
+(R2 B2 L2 F2 R2) // LS (25)
+(L2 U D' B2 U' D) // finish (30)
+
+         U                D2  U    U2
+L2 R2 F2   B2 R2 F2 L2 B2   B2  F2
+
+【反省】
+
+だいぶ良い感じだったけど、手順を書き間違えていて、スライスインサートの時間無し。
+3点交換の手順も間違えていた……。
