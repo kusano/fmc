@@ -1,0 +1,79 @@
+16:03
+
+【スクランブル】
+
+R' U' F D' R2 D R2 B2 R D' F2 R2 U2 F U2 B2 L2 B' L2 U2 B' L2 D B2 R' U' F
+
+【解答】
+
+F   D2  L   B   U   F'  R2  B'  F2  D2
+B   D'  F2  D'  U2  R2  Fw' L2  Fw  D2
+F2  D2  F2  L2  U2  L2  U2  R'
+
+【説明】
+
+(R) F D2 L // EO (R/L) (4/4)
+B U // DR-2e4c (F/B) (2/6)
+F' R2 B' F2 D2 B D' F2 D // DR (F/B, 4b2,2e) (9/15)
+D2 U2 R2 F' * L2 F * // HTR (6-1/20)
+D2 F2 D2 F2 // FR (4/24)
+L2 U2 L2 U2 // LS (4/28)
+* = w // finish (0/28)
+
+【メモ】
+
+(R) F D2 L
+
+(R) F D2 L // EO (R/L) (4)
+  U // DR-4e4c (F/B) (5)
+    F' R2 B2 U2 B2 D2 F D // DR (F/B, 4a3 or 4a4) (13)
+  B U // DR-2e4c (F/B) (6)
+    F' R2 B' F2 D2 B D' F2 D // DR (F/B, 4b2,2e) (15)
+  B2 U // DR-4e4c (F/B) (6)
+    F' R2 B2 U2 B2 U2 B D // DR (F/B, 4a3 or 4a4) (14)
+  B' U // DR-4e4c (F/B) (6)
+    R2 D2 R2 F L2 B' U // DR (F/B, 4a2) (13)
+(R) F D2 L' // EO (R/L) (4)
+  B2 U' // DR-4e4c (F/B) (6)
+    F D2 L2 ...
+
+(R) F D2 L // EO (R/L) (4)
+B U // DR-2e4c (F/B) (6)
+F' R2 B' F2 D2 B D' F2 D // DR (F/B, 4b2,2e) (15)
+
+R2 D2 L2 D2 F U2 F' // HTR (22)
+  D2 F2 U2 F2 // FR (26)
+    R2 L2 D2 R2 U2 // LS (VR) (31)
+D2 U2 R2 F' L2 F // HTR (20)
+  D2 F2 D2 F2 // FR (24)
+    L2 U2 L2 U2 // LS (28)
+  (F2 D2 R2 U2 R2 U2 F2) FR (27)
+(R2 U2 L2 U2 F' D2 F) // HTR (22)
+  (L2 F2 D2 L2 U2 U2 U2 F2) FR (30)
+    (U2) // LS (31)
+
+D2 U2 R2 F' L2 F // HTR (20)
+D2 F2 D2 F2 // FR (24)
+L2 U2 L2 U2 // LS (28)
+
+   F'   F   F2   F2
+U2   L2   D2   D2
+
+u | r | u || u ||
+
+   F'   F   F2   F2
+U2   L2   D2   D2
+   S'   S
+
+【反省】
+
+4手EO見落とし。
+- (R) D' F L
+- (B' R) D2 L
+  - 2手+2手はまあしょうがない
+- (L2 D F* B*)
+
+U R2 U
+のHTRは
+U' R2 U2 R2 U
+でもパターンを増やせる。
