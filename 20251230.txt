@@ -1,0 +1,84 @@
+【スクランブル】
+
+R' U' F D F U R2 U2 F' U2 F2 D2 U2 B' D2 F' D2 U L U2 F' U' R B' R' U' F
+
+【解答】
+
+B'  U   D'  L   F'  U2  R2  B2  D   R2
+U2  B   L2  U'  Uw2 B2  L2  Dw2 L2  U2
+L2  U'  L2  U'  R2  B2  R2  L2
+
+【説明】
+
+B' U D' L // EO (R/L) (4/4)
+F' // DR-4e4c (U/D) (1/5)
+U2 R2 B2 D R2 U2 B // DR (U/D, 2c3,2e) (7/12)
+L2 U * (L2 R2 B2 R2 U L2 U) // HTR (9/21)
+(L2 U2 L2 D2 *) // FR (4/25)
+(L2 B2) // LS (VR) (2/27)
+* = E2 // finish (1/28)
+
+【メモ】
+
+(U* B L' R2 F)
+[U B'] D' L
+(R2 [F2 U] R)
+L F B U D
+
+U B' D' L // EO (R/L) (4)
+  U' // DR-4e4c (F/B) (5)
+    R2 U2 D2 B D2 F' D // DR (F/B, 4b2,4e) (12)
+  F U // DR-2e4c (F/B) (6)
+  F // DR-2e4c (U/D) (5)
+    U R2 L2 U2 D' R2 D B' U2 B // DR (U/D) (15)
+  U' F' // DR-2e4c (U/D) (6)
+    D B2 D2 L2 U' D2 F' U2 F // DR (U/D, 4b2,2e) (15)
+  D' F // DR-2e4c (U/D) (6)
+    U2 F2 B2 D L2 U' D2 F' U2 F // DR (U/D) (16)
+U B' D' L' // EO (R/L) (4)
+  F' U // DR-2e4c (F/B) (6)
+B' U D' L // EO (R/L) (4)
+  F' // DR-4e4c (U/D) (5)
+    U2 R2 B2 D R2 U2 B // DR (U/D, 2c3,2e) (12)
+
+B' U D' L // EO (R/L) (4)
+F' // DR-4e4c (U/D) (5)
+U2 R2 B2 D R2 U2 B // DR (U/D, 2c3,2e) (12)
+
+F2 D' B2 F2 R2 F2 U F2 U // HTR (21)
+  F2 L2 U2 B2 ...
+L2 U F2 R2 F2 L2 U' R2 U' // HTR (21)
+  R2 U2 B2 R2 D2 // FR (26)
+    B2 F2 L2 F2 L2 // finish (31)
+(L2 D' R2 L2 F2 L2 U' B2 U) // HTR (21)
+  ...
+F2 D' (B2 R2 F2 U' L2 U') // HTR (20) fake HTR
+L2 U (L2 R2 B2 R2 U L2 U) // HTR (21)
+  (L2 U2 L2 D2) // FR (25)
+    (L2 B2) // LS (VR) (27)
+
+L2 U (L2 R2 B2 R2 U L2 U) // HTR (21)
+(L2 U2 L2 D2) // FR (25)
+(L2 B2) // LS (VR) (27)
+
+
+         U       D2   U2   U'  U'
+L2 R2 F2   B2 L2    L2   L2  L2
+         g        f    g   f   g = g
+                       E2
+
+f | f r || r || r | r |
+
+         U       D2   U2   U'  U'
+L2 R2 F2   B2 L2    L2   L2  L2
+                      E'       E
+         g        f    g   r   g = g
+
+         U       D2   U2   U'  U'
+L2 R2 F2   B2 L2    L2   L2  L2
+         r        f    g   f   g = g
+        E2        E2
+
+【反省】
+
+Fake HTRにしてしまったり、VRでエッジの交換を見間違えたりとミスが多い。
