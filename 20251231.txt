@@ -1,0 +1,89 @@
+【スクランブル】
+
+R' U' F L D B' L' R' F2 U2 R' B2 U2 R2 D2 U2 L' F' D2 B2 U' B2 L D2 R' U' F
+
+【解答】
+
+D   L'  F   B2  U   B2  U   D   F   L2
+F'  Dw  R2  F2  U   R2  U   B2  U   Uw
+F2  L2  D2  F2  R2  L'
+
+【説明】
+
+(L) D L' // EO (3/3)
+F // DR-2e4c (U/D) (1/4)
+B2 U B2 U D F L2 F' // DR (U/D, 2c3,6e) (8/12)
+D * R2 F2 U R2 U // HTR (6/18)
+B2 U2 *** F2 L2 D2 // FR (5/23)
+F2 R2 // LS (2/25)
+* = E // finish (1/26)
+
+【メモ】
+
+L* R D R
+(L) D L
+
+(L) D L // EO (R/L) (3)
+  B2 U' // DR-4e4c (F/B) (5)
+    B' D2 F2 R2 L2 F2 B' D // DR (F/B, 2c3,4e) (13)
+  F' // DR-2e4c (U/D) (4)
+    U R2 L2 U2 B2 U2 D2 F U2 F // DR (U/D, 0c3) (14)
+(L) D L' // EO (3)
+  F // DR-2e4c (U/D) (4)
+    B2 U B2 U D B D2 B // DR (U/D, 2c3,6e) (12)
+    B2 D L2 D2 F2 U2 D2 B' D2 B // DR (U/D, 2c3,2e) (14)
+L R D R // EO (R/L) (4)
+L R D R' // EO (R/L) (4)
+L' R D R // EO (R/L) (4)
+  F D // DR-4e4c (F/B) (6)
+L' R D R' // EO (R/L) (4)
+  D' F // DR-4e4c (U/D) (6)
+
+(L) D L' // EO (3)
+F // DR-2e4c (U/D) (4)
+B2 U B2 U D B D2 B // DR (U/D, 2c3,6e) (12)
+
+F2 U L2 F2 U B2 U' // HTR (19)
+  F2 L2 U2 // FR (22)
+    R2 L2 B2 L2 B2 // LS (27)
+  B2 R2 D2 // FR (22)
+    R2 L2 B2 R2 F2 // LS (27)
+(L2 U' R2 F2 U' F2 R2 D') HTR (19)
+(L2 U' R2 F2 U' B2 L2 U) // HTR (19)
+  (B2 R2 U2 B2 L2 U2) // FR (25)
+    (R2 B2 R2 B2 R2 B2) // LS (31)
+
+(L) D L' // EO (3)
+F // DR-2e4c (U/D) (4)
+B2 U B2 U D F L2 F' // DR (U/D, 2c3,6e) (12)
+
+D R2 F2 U R2 U // HTR (18)
+  B2 U2 F2 L2 D2 // FR (23)
+    F2 R2 // LS (25)
+
+(L) D L' // EO (3)
+F // DR-2e4c (U/D) (4)
+B2 U B2 U D F L2 F' // DR (U/D, 2c3,6e) (12)
+D R2 F2 U R2 U // HTR (18)
+B2 U2 F2 L2 D2 // FR (23)
+F2 R2 // LS (25)
+
+      D       U    U    U2      D2
+F2 B2   R2 F2   R2   B2   F2 L2
+
+. | r f | r | f || f r ||
+
+      D       U    U    U2      D2
+F2 B2   R2 F2   R2   B2   F2 L2
+              E'   E'
+      g       r    f     r      g = f
+
+      D       U    U    U2      D2
+F2 B2   R2 F2   R2   B2   F2 L2
+      E                 E'
+      g       f    g    r       g = ok
+
+【反省】
+
+○ 2e4cの別トリガーを見ることができた
+○ VRで+2手しかなかったところで、別VRの+1手を見つけられた
