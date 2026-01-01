@@ -1,0 +1,84 @@
+【スクランブル】
+
+R' U' F U2 D' B2 U L D2 F2 D' F B2 R U2 B2 R2 U2 F2 L2 B' R' U' F
+
+【解答】
+
+F'  U'  B2  L'  U'  B   D   F2  D'  R2
+U'  B2  U2  D   B'  F2  R2  L2  Uw  B2
+Uw  U'  R2  B2  Uw2 R2  B2  D2  F2
+
+【説明】
+
+F' U' B2 L' // EO (R/L) (4)
+U' B // DR-4e4c (U/D) (6)
+D F2 D' R2 U' B2 U2 D B' // DR (U/D, 4a1,4e) (15)
+F2 R2 L2 U *** // HTR (19)
+B2 * + R2 B2 U2 + R2 B2 D2 // FR (26)
+F2 // LS (27)
+* = E // VR (28)
++ = E2 // finish (29)
+
+【メモ】
+
+F' U' B2 L
+(D' F' B R)
+
+F' U' B2 L // EO (R/L) (4)
+  // DR-4e4c (F/B) (4)
+  B' D // DR-4e4c (F/B) (6)
+  D B' // DR-4e4c (U/D) (6)
+    D' F2 D L2 D' B2 U' F // DR (U/D, 2c5) (14)
+F' U' B2 L' // EO (R/L) (4)
+  B U // DR-4e4c (F/B) (6)
+  U' B // DR-4e4c (U/D) (6)
+    D F2 D' R2 U' B2 U2 D B // DR (U/D, 4a1,4e) (15)
+    D' F2 D L2 U B2 D F // DR (U/D, 4a1,4e) (14)
+(D' F' B R) // EO (R/L) (4)
+  (F' U) // DR-4e4c (F/B) (6)
+    (B' R2 F2 L2 F R2 F2 D) // DR (F/B, 2c4) (14)
+    (F' U2 F2 D2 B R2 B2 D) // DR (F/B, 2c4) (14)
+  // DR-4e4c (U/D) (4)
+    (B2 U L2 D2 B2 D B2 D F) // DR (U/D, 4b5) (13)
+
+F' U' B2 L' // EO (R/L) (4)
+U' B // DR-4e4c (U/D) (6)
+D' F2 D L2 U B2 D F // DR (U/D, 4a2,4e) (14)
+
+R2 F2 R2 B2 R2 U' // HTR (20)
+  L2 U2 R2 F2 
+
+U2 B2 L2 U' B2 U2 F2 R2 U // HTR (23)
+
+F' U' B2 L' // EO (R/L) (4)
+U' B // DR-4e4c (U/D) (6)
+D F2 D' R2 U' B2 U2 D B' // DR (U/D, 4a1,4e) (15)
+
+F2 R2 L2 U // HTR (19)
+  B2 R2 B2 U2 R2 B2 D2 // FR (26)
+    F2 // LS (27)
+  (F2 U2 F2 L2 D2) // FR (24)
+    B2 R2 B2 // LS
+
+F2 R2 L2 U // HTR (19)
+B2 R2 B2 U2 R2 B2 D2 // FR (26)
+F2 // LS (27)
+
+         U          U2      D2
+R2 F2 L2   B2 R2 B2   R2 B2
+
+r f r | f r f || r f ||
+
+         U          U2      D2
+R2 F2 L2   B2 R2 B2   R2 B2
+         E'  E
+         g   r      f       g: g
+             E2     E2
+
+【反省】
+
+F' U' B2 L' // EO (R/L) (4)
+U' B // DR-4e4c (U/D) (6)
+D F2 D' R2 U' B2 U2 D B // DR (U/D, 4a1,4e) (15)
+
+0cにしてもfake → 4a2と間違えた → それも間違いで本当は4a3だった。
