@@ -1,0 +1,77 @@
+【スクランブル】
+
+R' U' F R' D' R2 B2 D L2 D' B2 F2 R2 D' L2 U2 F D U' F2 U2 L F' D2 R' U' F
+
+【解答】
+
+U2  B   R   F   D'  F2  R2  D   R2  D2
+F   Uw2 R2  Uw2 U2  F2  U'  B2  R2  U'
+B2  U2  R2  F2  L2  U2  B2  R2  B2  R2
+
+【説明】
+
+U2 B R // EO (R/L) (3/3)
+F // DR-4e4c (U/D) (1/4)
+D' F2 R2 D R2 D2 F // DR (U/D, 4b2,4e) (7/11)
+U2 * R2 * F2 U' B2 R2 U' // HTR (7/18)
+B2 U2 R2 F2 L2 U2 // FR (6/24)
+B2 R2 B2 R2 // LS (VR) (4/28)
+* = E2 // finish (2/30)
+
+【メモ】
+
+[U2 B] R
+(B* U B R)
+(D* F' B' U)
+
+U2 B R // EO (R/L) (3)
+  F // DR-4e4c (U/D) (4)
+    D' F2 R2 D R2 D2 F // DR (U/D, 4b2,4e) (11)
+    D' F2 R2 D L2 U2 B // DR (U/D, 4b2,4e) (11)
+  U F // DR-2e4c (U/D) (5)
+    D R2 U' F' D2 F // DR (U/D, 2c4) (11)
+U2 B R' // EO (R/L) (3)
+  D // DR-4e4c (F/B) (4)
+  U F // DR-4e4c (U/D) (5)
+    B2 D' B2 D R2 U F // DR (U/D, 4b2,4e) (12)
+B U2 R // EO (R/L) (3)
+  U F // DR-4e4c (U/D) (5)
+  U2 F // DR-4e4c (U/D) (5)
+    D' F2 B2 U' F2 U' R2 U2 F // DR (U/D, 2c3,6e) (14)
+                      L2 D2 B // DR (U/D, 2c3,6e) (14)
+B U2 R' // EO (R/L) (3)
+  D2 B // DR-4e4c (U/D) (5)
+    U' R2 F2 L2 D L2 U2 D F // DR (U/D, 2c3,2e) (14)
+
+U2 B R // EO (R/L) (3)
+F // DR-4e4c (U/D) (4)
+D' F2 R2 D R2 D2 F // DR (U/D, 4b2,4e) (11)
+
+U2 R2 F2 U' F2 L2 D' // HTR (18)
+  R2 U2 B2 L2 B2 D2 // FR (24)
+    F2 L2 F2 L2 F2 L2 // LS (VR) (30)
+  (L2 U2 F2 R2 F2 D2) // FR (24)
+    (R2 L2 B2 L2) // LS (VR) (28)
+U2 R2 F2 U' B2 R2 U' // HTR (18)
+  B2 U2 R2 F2 L2 U2 // FR (24)
+    B2 R2 B2 R2 // LS (VR) (28)
+  B2 U2 L2 F2 R2 U2 // FR (24)
+    F2 R2 F2 R2 // LS (VR) (28)
+  (U2 L2 F2 R2 U2) // FR (23)
+    (B2 L2 B2 L2 B2) // LS (VR (28)
+F2 U2 F2 ...
+(F2 U' L2 F2 B2 U2 R2 F2 R2 D) // HTR (21)
+
+U2 R2 F2 U' B2 R2 U' // HTR (18)
+B2 U2 R2 F2 L2 U2 // FR (24)
+B2 R2 B2 R2 // LS (VR) (28)
+
+      U2       U'      U'   U2         U2
+B2 L2    R2 F2   B2 R2   B2   R2 F2 L2 
+      f    r    g  r   f    g  r   f   g : g
+      E2   E2
+
+
+【反省】
+
+スライスインサートで90度回転の挿入を試す時間が無かった。
