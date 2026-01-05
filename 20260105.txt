@@ -1,0 +1,85 @@
+【スクランブル】
+
+R' U' F U2 F2 U2 L D2 B2 U2 F2 L2 B2 L' U' L2 B' L2 F' U R2 D' R B R' U' F
+
+【解答】
+
+L   B   U   F2  R2  F2  R2  F2  Uw2 L2
+U   Uw2 B2  U   L2  F2  L'  D'  U2  B2
+U   L2  U'  L   U'
+
+【説明】
+
+L B // EO (F/B) (2)
+(U L') // DR-4e4c (U/D) (2/4)
+(U L2 U' B2 U2 D L) // DR (U/D, 2c3,4e) (7/11)
+U' (F2 L2 U' B2 U *) // HTR (6/17)
+(L2 U2 * F2 R2 F2 R2 F2 U2) // FR (8-1/24)
+// LS (0/24)
+// VR (0/24)
+* = E2 // finish (1/25)
+
+【メモ】
+
+L B
+(L* D R' U)
+
+L B // EO (F/B) (2)
+  D' L // DR-4e4c (U/D) (4)
+    U2 R2 D2 F2 D R // DR (U/D, 4b5) (10)
+    B2 U2 R2 D F2 D2 R // DR (U/D, 4b5) (11)
+  D // DR-4e4c (R/L) (3)
+    L D2 L U2 R U // DR (R/L, 4b3 or 4b4) (9)
+  D' // DR-4e4c (R/L) (3)
+  R2 D' // DR-4e4c (R/L) (4)
+    L' D2 L' U2 R' U // DR (R/L, 2c4,4e) (10)
+L B' // EO (F/B) (2)
+  D' // DR-4e4c (R/L) (3)
+    B2 D2 L U2 D2 R D2 ...
+  R2 D' // DR-4e4c (4)
+    L' U2 D2 B2 R' B2 R' U // DR (R/L, 4b2,4e) (12)
+  R' D // DR-4e4c (R/L) (4)
+    R2 D2 B2 L B2 ...
+L B // EO (F/B) (2)
+  (U L') // DR-4e4c (U/D) (4)
+    (U L2 U' B2 U2 D L) // DR (U/D, 2c3,4e) (11)
+  (U' L) // DR-2e4c (U/D) (4)
+    (U2 F2 U' D R' U2 R) // DR (U/D, 4a3 or 4a4) (11)
+  (L' D') // DR-4e4c (R/L) (4)
+    (F2 B2 ...)
+
+L B // EO (F/B) (2)
+(U L') // DR-4e4c (U/D) (4)
+(U L2 U' B2 U2 D L) // DR (U/D, 2c3,4e) (11)
+
+U' R2 B2 R2 B2 U' B2 U // HTR (19)
+  R2 U2 F2 R2 B2 L2 F2 D2 // FR (27)
+    L2 B2 L2 B2 L2 B2 // LS (VR) (33)
+U' (F2 L2 U' B2 U) // HTR (17)
+  (L2 U2 F2 R2 F2 R2 F2 U2) // FR (24)
+    // LS (VR) (24)
+  U2 F2 R2 F2 R2 F2 U2 // FR (23)
+    L2 // LS (VR) (24)
+(F2 L2 U' B2 U) B2 L2 R2 F2 D' // HTR (20)
+  F2 L2 F2 U2 L2 B2 D2 // FR (27)
+
+
+U' (F2 L2 U' B2 U) // HTR (17)
+(L2 U2 F2 R2 F2 R2 F2 U2) // FR (24)
+// LS (VR) (24)
+
+
+   U                U2    U'   U
+B2   F2 R2 F2 R2 F2    L2   B2
+   r                 f    r    g: g
+                     E2   E2
+
+
+f | r || r | f |
+
+   U                U2    U'   U
+B2   F2 R2 F2 R2 F2    L2   B2
+   E'                     E
+   r                 g    r    g: f
+
+【反省】
