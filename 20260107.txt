@@ -1,0 +1,79 @@
+【スクランブル】
+
+R' U' F L2 B D2 B2 R2 D2 F' L2 F U2 B U L2 R D' B' F' R D L' F R' U' F
+
+【解答】
+
+R2  F   R   D'  F2  R2  B2  L   F2  R
+U   L   D2  F2  L   U2  D2  B2  U2  R
+D2  R   U2  F2  U2  R2  U2  D2  F2  D2
+L'  R   B2  L   R'  B'
+
+【説明】
+
+(B) R2 F // EO (F/B) (3)
+R D' // DR-4e4c (R/L) (2/5)
+F2 R2 B2 L F2 R U // DR (R/L, 2c4) (7/12)
+L D2 F2 L U2 D2 B2 U2 R D2 R // HTR (11/23)
+U2 F2 U2 R2 // FR (4/27)
+U2 D2 F2 U2 D2 // LS (5/32)
+U2 L' R B2 L R'// finish (6-2/36)
+
+【メモ】
+
+F (B2 U2 B) (4)
+(B R2 U F)
+(B) R2 F
+
+(B) R2 F // EO (F/B) (3)
+  R D' // DR-4e4c (R/L) (5)
+    F2 R2 B2 L F2 R U // DR (R/L, 2c4) (12)
+  (R D) // DR-4e4c (R/L) (5)
+(B) R2 F' // EO (F/B) (3)
+  D R // DR-4e4c (U/D) (5)
+(B') R2 F // EO (F/B) (3)
+  (L' U) // DR-4e4c (R/L) (5)
+    (F2 D2 R B2 R2 B2 L' F2 R2 D) // DR (R/L, 2c4) (15)
+(B R2 U F) // EO (F/B) (4)
+(B R2 U F') // EO (F/B) (4)
+  (D' L) // DR-4e4c (U/D) (6)
+F (B2 U2 B) // EO (F/B) (4)
+F (B2 U2 B') // EO (F/B) (4)
+(B2 U2 B) F // EO (F/B) (4)
+  R D // DR-4e4c (R/L) (6)
+    R2 U2 B2 R2 B2 L' F2 R2 U // DR (R/L, 2c3,2e) (15)
+  L D // DR-4e4c (R/L) (6)
+    L' F2 L2 F2 ...
+
+(B) R2 F // EO (F/B) (3)
+R D' // DR-4e4c (R/L) (5)
+F2 R2 B2 L F2 R U // DR (R/L, 2c4) (12)
+
+L D2 F2 L U2 D2 B2 U2 R D2 R // HTR (23)
+  U2 F2 U2 R2 // FR (27)
+    F2 U2 D2 // LS (30)
+L (B2 R D2 F2 U2 F2 R F2 U2 L') // HTR (22) X
+L (B2 R D2 F2 U2 F2 R B2 D2 R) // HTR (22) X
+  (B2 R2)
+L (B2 R' F2 U2 B2 U2 R' F2 U2 R) // HTR (22)
+L D2 F2 L (B2 F2 D2 B2 R F2 R) // HTR (22)
+  (U2 F2 U2 R2) // FR (26)
+    (B2 U2 B2 U2 B2) // LS (VR) (31)
+
+L D2 F2 L U2 D2 B2 U2 R D2 R // HTR (23)
+U2 F2 U2 R2 // FR (27)
+F2 U2 D2 // LS (30)
+
+      L      L             R   R          R2
+B2 D2  D2 F2   U2 D2 B2 U2  D2   U2 F2 U2
+
+L D2 F2 L U2 D2 B2 U2 R D2 R // HTR (23)
+U2 F2 U2 R2 // FR (27)
+U2 D2 F2 U2 D2 // LS (32)
+U2 L' R B2 L R'// finish (36)
+
+【反省】
+
+LSの手順が間違えていて、思っていたよりも手数が多かったし、そのせいでSIの時間が無かった。
+ひどい。
+2c4→2c3の遷移時に、逆回転で遷移するものを見るべきだった。
