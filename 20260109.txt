@@ -1,0 +1,90 @@
+【スクランブル】
+
+R' U' F U2 F D' R2 L2 F2 U R B R2 U2 L2 U2 F2 R2 F L2 F' D2 F D R' U' F
+
+【解答】
+
+B   D'  B'  D  B   L'  F2  L2  B   L2
+F   U2  F2  R  F   L2  B'  R2  U2  Fw'
+U2  Fw' L2  D2 Fw2 R2
+
+【説明】
+
+B D' B' D  // EO (U/D) (4/4)
+B L' // DR-4e4c (F/B) (2/6)
+F2 L2 B L2 F U2 F2 R // DR (F/B, 2c4) (8/14)
+F L2 B' R2 U2 F' * U2 F' * // HTR (F/B) (8/22)
+L2 D2 F2 + // FR (3/25)
+R2 // LS (1/26)
+* = S' // VR (0/26)
++ = S2 // finish (0/26)
+
+【メモ】
+
+(R* B* L F)
+(R D2 B' L)
+B D' B' D
+...
+(D' F D)
+
+(D' F D) // EO (U/D) (3)
+(D' F D') // EO (U/D) (3)
+  (R B) // DR-4e4c (R/L) (5)
+    (R2 F2 L B2 R2 F) // DR (R/L, 2c4) (11)
+  (R B') // DR-4e4c (R/L) (5)
+    (R2 F2 L B2 R2 F) // DR (R/L, 2c4) (11)
+    (R2 F2 L' B2 R2 F) // DR (R/L, 2c4) (11)
+(D' F D) // EO (U/D) (3)
+B D' B' D  // EO (U/D) (4)
+  F L // DR-4e4c (F/B) (6)
+    F2 L2 F' U2 F2 D2 F' D2 F' B2 R // DR (F/B, 2c3,4e) (17)
+  B L // DR-4e4c (F/B) (6)
+    B' R2 F B U2 F2 B' L // DR (F/B, 2c4) (14)
+  B L' // DR-4e4c (F/B) (6)
+    F' U2 L2 F L2 B F2 R // DR (F/B, 4b5) (14)
+    F2 L2 B L2 F U2 F2 R // DR (F/B, 2c4) (14)
+
+B D' B' D  // EO (U/D) (4)
+B L' // DR-4e4c (F/B) (6)
+F2 L2 B L2 F U2 F2 R // DR (F/B, 2c4) (14)
+
+F L2 B' R2 U2 F' U2 F' // HTR (F/B) (22)
+  L2 D2 F2 // FR (25)
+    R2 // LS (26)
+F L2 B' (F2 L2 R2 U2 L2 F' L2 F) // HTR (25)
+F (D2 R2 F U2 R2 D2 L2 F U2 F) // HTR (25)
+  (L2 U2 L2 U2 F2) // FR (29)
+    (L2 U2) // LS (31)
+(L2 F U2 B' D2 L2 U2 L2 F' L2 F') // HTR (25)
+  (U2 L2 B2) // FR (28)
+    (U2 L2 D2 R2 D2 R2) // LS (34)
+
+F L2 B' R2 U2 F' U2 F' // HTR (F/B) (22)
+L2 D2 F2 // FR (25)
+R2 // LS (26)
+
+      F   B'      F'   F'      F2
+R2 L2  L2   R2 U2   U2   L2 D2
+
+. | r | r u | u | r u ||
+
+      F   B'      F'   F'      F2
+R2 L2  L2   R2 U2   U2   L2 D2
+          S       S'
+      g   u   r   g    u   r   g: g
+          S2  S2
+
+      F   B'      F'   F'      F2
+R2 L2  L2   R2 U2   U2   L2 D2
+
+      F   B'      F'   F'      F2
+R2 L2  L2   R2 U2   U2   L2 D2
+                  S'   S'
+      g   u   g   r    u   r   g: g
+                               S2
+
+B   D'  B'  D  B   L'  F2  L2  B   L2
+F   U2  F2  R  F   L2  B'  R2  U2  Fw'
+U2  Fw' L2  D2 Fw2 R2
+
+【反省】
